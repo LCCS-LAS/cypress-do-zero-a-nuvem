@@ -1,28 +1,61 @@
-# 🌲 Cypress, do Zero à Nuvem ☁️
+🧪 Testes Automatizados com Cypress
 
-👋 Seja bem-vindo(a)!
+Este projeto contém testes automatizados end-to-end (E2E) desenvolvidos com Cypress, com o objetivo de validar funcionalidades da aplicação de forma automatizada, garantindo qualidade, confiabilidade e rapidez no processo de testes.
 
-É muito bom tê-lo(a) aqui. Tenho certeza que você vai amar esse curso. ❤️
+🚀 Tecnologias Utilizadas
 
-## O que você vai aprender?
+JavaScript
 
-- Como configurar um projeto Cypress do zero
-- Como visitar páginas locais e remotas
-- Como lidar com os elementos mais comuns encontrados em aplicações web
-- Como testar upload de arquivos
-- Como realizar as mais diversas verificações de resultados esperados
-- Como criar comandos customizados
-- Como lidar com links que abrem em outra aba do navegador
-- Como rodar testes simulando as dimensões de um dispositivo móvel
-- Como resolver os mesmos problemas de diferentes formas, conhecendo a [API do Cypress](https://docs.cypress.io/api/table-of-contents)
-- Como criar uma documentação mínima para seu projeto de testes automatizados
-- Como executar os testes em um _workflow_ de integração contínua sempre que mudanças ocorrerem no código da aplicação (ou dos testes)
-- Como integrar seu _workflow_ de integração contínua com o Cypress Cloud (o serviço de gestão de testes do Cypress na nuvem)
+Node.js
 
-## Vamos começar?
+Cypress
 
-Vá para a seção [estrutura do curso](./lessons/_course-structure_.md).
+npm
 
-___
+📂 Estrutura do Projeto
+cypress/
+ ├─ e2e/           # Testes E2E
+ ├─ fixtures/      # Dados mockados
+ ├─ support/       # Comandos e configurações
+cypress.config.js
+package.json
+README.md
 
-Este é um curso da **Escola Talking About Testing**.
+⚙️ Pré-requisitos
+
+Antes de começar, você precisa ter instalado:
+
+Node.js (versão LTS recomendada)
+
+npm
+
+📥 Instalação
+
+Clone o repositório e instale as dependências:
+
+npm install
+
+▶️ Como Executar os Testes
+Abrir o Cypress (modo interativo)
+npm run cy:open
+
+Executar os testes em modo headless
+npm test
+
+🧠 Boas Práticas Aplicadas
+
+Testes independentes
+
+Uso de seletores estáveis
+
+Organização por cenários
+
+Validações claras de comportamento
+
+Estrutura padrão do Cypress
+
+Projeto criado para prática e aprimoramento em automação de testes, focando em cenários reais de QA, podendo ser utilizado como portfólio profissional.
+
+👤 Autor
+
+Luccas Silva
